@@ -14,13 +14,14 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using AsyncSample.ViewModels;
+using MahApps.Metro.Controls;
 
 namespace AsyncSample.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         public MainWindow()
         {
